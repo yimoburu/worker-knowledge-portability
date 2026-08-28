@@ -1,0 +1,31 @@
+name: Related work
+description: Add a standard, project, law, paper, or governance model that changes the analysis.
+title: "[Related work]: "
+labels:
+  - related-work
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Public URL
+    validations:
+      required: true
+  - type: textarea
+    id: contribution
+    attributes:
+      label: What does it already solve?
+    validations:
+      required: true
+  - type: textarea
+    id: consequence
+    attributes:
+      label: Consequence for this project
+      description: Should the charter reuse it, change scope, or stop?
+    validations:
+      required: true

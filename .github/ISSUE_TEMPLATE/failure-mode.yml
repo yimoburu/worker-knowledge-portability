@@ -1,0 +1,45 @@
+name: Failure mode
+description: Show how the charter or ecosystem could fail, be abused, or create harm.
+title: "[Failure mode]: "
+labels:
+  - critique
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include confidential workplace information, personal data, or protected evidence."
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Scenario
+      description: Describe the actors, decision, and failure using synthetic or generalized facts.
+    validations:
+      required: true
+  - type: textarea
+    id: affected
+    attributes:
+      label: Who is affected and how?
+    validations:
+      required: true
+  - type: textarea
+    id: charter_gap
+    attributes:
+      label: Charter gap
+      description: Which right, procedure, incentive, or governance boundary fails?
+    validations:
+      required: true
+  - type: dropdown
+    id: recommendation
+    attributes:
+      label: Recommended disposition
+      options:
+        - Continue with a charter change
+        - Narrow the scope
+        - Stop the effort
+        - Investigate further
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Public evidence or related work
+      description: Add links that others can inspect. Do not attach protected evidence.

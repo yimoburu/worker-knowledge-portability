@@ -1,0 +1,33 @@
+name: Employer perspective
+description: Identify an employer protection, incentive, or operational constraint the draft misses.
+title: "[Employer perspective]: "
+labels:
+  - employer-perspective
+body:
+  - type: markdown
+    attributes:
+      value: "Do not submit trade secrets, private source material, or identifiable disputes."
+  - type: textarea
+    id: situation
+    attributes:
+      label: Situation
+      description: Describe a synthetic or generalized employer scenario.
+    validations:
+      required: true
+  - type: textarea
+    id: exposed_interest
+    attributes:
+      label: Legitimate interest still exposed
+      description: Explain the confidentiality, legal, operational, or incentive problem.
+    validations:
+      required: true
+  - type: textarea
+    id: minimum_control
+    attributes:
+      label: Minimum control or evidence needed
+    validations:
+      required: true
+  - type: textarea
+    id: overreach
+    attributes:
+      label: How could employer protection become overreach?

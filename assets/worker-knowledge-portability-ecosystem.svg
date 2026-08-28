@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1720" viewBox="0 0 1600 1720" role="img" aria-labelledby="title desc">
+  <title id="title">Worker Knowledge Portability Ecosystem</title>
+  <desc id="desc">An ecosystem architecture connecting stakeholders, constitutional principles, an open protocol, conforming implementations, trust institutions, and four governed knowledge outcomes.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#52606d"/>
+    </marker>
+    <style>
+      .title { font: 700 42px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #102a43; }
+      .subtitle { font: 400 19px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #486581; }
+      .section { font: 700 23px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #102a43; }
+      .label { font: 600 18px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #102a43; }
+      .small { font: 400 16px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #334e68; }
+      .tiny { font: 400 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #627d98; }
+      .line { stroke: #52606d; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+      .feedback { stroke: #7b8794; stroke-width: 2; stroke-dasharray: 8 7; fill: none; marker-end: url(#arrow); }
+      .group { fill: #f8fafc; stroke: #bcccdc; stroke-width: 2; rx: 22; }
+      .stakeholder { fill: #e6f6ff; stroke: #62b0e8; stroke-width: 2; rx: 16; }
+      .principle { fill: #fff8e6; stroke: #e0a82e; stroke-width: 2; rx: 14; }
+      .protocol { fill: #eefcf5; stroke: #48a779; stroke-width: 2; rx: 14; }
+      .implementation { fill: #f2efff; stroke: #8b72d8; stroke-width: 2; rx: 14; }
+      .trust { fill: #fff0f3; stroke: #d66a83; stroke-width: 2; rx: 14; }
+      .output { fill: #ffffff; stroke: #52606d; stroke-width: 2.5; rx: 16; }
+      .core { fill: #173f5f; stroke: #173f5f; stroke-width: 2; rx: 18; }
+      .coretext { font: 700 22px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #ffffff; }
+      .coretiny { font: 400 15px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #d9e8f5; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1720" fill="#ffffff"/>
+
+  <text x="800" y="58" text-anchor="middle" class="title">Worker Knowledge Portability Ecosystem</text>
+  <text x="800" y="92" text-anchor="middle" class="subtitle">Open rules, multiple implementations, independent trust, and governed knowledge outcomes</text>
+
+  <!-- Stakeholders -->
+  <rect x="70" y="130" width="1460" height="180" class="group"/>
+  <text x="100" y="170" class="section">Stakeholders</text>
+
+  <rect x="100" y="195" width="250" height="82" class="stakeholder"/>
+  <text x="225" y="229" text-anchor="middle" class="label">Workers</text>
+  <text x="225" y="253" text-anchor="middle" class="small">portable capability claims</text>
+
+  <rect x="390" y="195" width="250" height="82" class="stakeholder"/>
+  <text x="515" y="229" text-anchor="middle" class="label">Employers</text>
+  <text x="515" y="253" text-anchor="middle" class="small">protected evidence custody</text>
+
+  <rect x="680" y="195" width="250" height="82" class="stakeholder"/>
+  <text x="805" y="229" text-anchor="middle" class="label">AI vendors</text>
+  <text x="805" y="253" text-anchor="middle" class="small">interoperability</text>
+
+  <rect x="970" y="195" width="250" height="82" class="stakeholder"/>
+  <text x="1095" y="225" text-anchor="middle" class="label">Guilds · unions</text>
+  <text x="1095" y="250" text-anchor="middle" class="small">collective governance</text>
+
+  <rect x="1260" y="195" width="240" height="82" class="stakeholder"/>
+  <text x="1380" y="225" text-anchor="middle" class="label">Auditors · regulators</text>
+  <text x="1380" y="250" text-anchor="middle" class="small">legitimacy and remedy</text>
+
+  <!-- Constitution -->
+  <path d="M800 310 L800 350" class="line"/>
+  <rect x="70" y="360" width="1460" height="218" class="group"/>
+  <text x="100" y="400" class="section">1 · Worker Knowledge Portability Charter</text>
+
+  <rect x="100" y="430" width="315" height="100" class="principle"/>
+  <text x="257" y="468" text-anchor="middle" class="label">Worker capability agency</text>
+  <text x="257" y="495" text-anchor="middle" class="small">transparency · recognition · mobility</text>
+
+  <rect x="455" y="430" width="315" height="100" class="principle"/>
+  <text x="612" y="468" text-anchor="middle" class="label">Employer knowledge protection</text>
+  <text x="612" y="495" text-anchor="middle" class="small">secrecy · work product · evidence</text>
+
+  <rect x="810" y="430" width="315" height="100" class="principle"/>
+  <text x="967" y="468" text-anchor="middle" class="label">Claim–evidence separation</text>
+  <text x="967" y="495" text-anchor="middle" class="small">no blanket ownership · no extraction</text>
+
+  <rect x="1165" y="430" width="335" height="100" class="principle"/>
+  <text x="1332" y="468" text-anchor="middle" class="label">Review, appeal, and remedy</text>
+  <text x="1332" y="495" text-anchor="middle" class="small">due process · evidence · no retaliation</text>
+
+  <!-- Protocol -->
+  <path d="M800 578 L800 618" class="line"/>
+  <rect x="70" y="628" width="1460" height="280" class="group"/>
+  <text x="100" y="668" class="section">2 · Open protocol</text>
+
+  <rect x="100" y="700" width="430" height="80" class="protocol"/>
+  <text x="315" y="734" text-anchor="middle" class="label">Governed capability-claim schema</text>
+  <text x="315" y="759" text-anchor="middle" class="small">portable claims—not replayable memory</text>
+
+  <rect x="585" y="700" width="430" height="80" class="protocol"/>
+  <text x="800" y="734" text-anchor="middle" class="label">Claim-level provenance</text>
+  <text x="800" y="759" text-anchor="middle" class="small">source · author · derivation · evidence</text>
+
+  <rect x="1070" y="700" width="430" height="80" class="protocol"/>
+  <text x="1285" y="734" text-anchor="middle" class="label">Rights, license, and trust status</text>
+  <text x="1285" y="759" text-anchor="middle" class="small">access · use · attestation · value</text>
+
+  <rect x="100" y="805" width="430" height="80" class="protocol"/>
+  <text x="315" y="839" text-anchor="middle" class="label">Safe-abstraction contract</text>
+  <text x="315" y="864" text-anchor="middle" class="small">capability without protected source</text>
+
+  <rect x="585" y="805" width="430" height="80" class="protocol"/>
+  <text x="800" y="839" text-anchor="middle" class="label">Portability lifecycle</text>
+  <text x="800" y="864" text-anchor="middle" class="small">export · import · revoke · supersede</text>
+
+  <rect x="1070" y="805" width="430" height="80" class="protocol"/>
+  <text x="1285" y="839" text-anchor="middle" class="label">Review, dispute, and decision records</text>
+  <text x="1285" y="864" text-anchor="middle" class="small">decisions remain inspectable</text>
+
+  <!-- Two ecosystem branches -->
+  <path d="M800 908 L800 944 L405 944 L405 980" class="line"/>
+  <path d="M800 908 L800 944 L1195 944 L1195 980" class="line"/>
+
+  <rect x="70" y="990" width="670" height="330" class="group"/>
+  <text x="100" y="1030" class="section">3 · Conforming implementations</text>
+
+  <rect x="100" y="1060" width="285" height="80" class="implementation"/>
+  <text x="242" y="1094" text-anchor="middle" class="label">Worker wallet</text>
+  <text x="242" y="1119" text-anchor="middle" class="small">portable claim custody</text>
+
+  <rect x="425" y="1060" width="285" height="80" class="implementation"/>
+  <text x="567" y="1094" text-anchor="middle" class="label">Employer vault</text>
+  <text x="567" y="1119" text-anchor="middle" class="small">protected evidence custody</text>
+
+  <rect x="100" y="1165" width="285" height="80" class="implementation"/>
+  <text x="242" y="1199" text-anchor="middle" class="label">Boundary engines</text>
+  <text x="242" y="1224" text-anchor="middle" class="small">propose · abstract · explain</text>
+
+  <rect x="425" y="1165" width="285" height="80" class="implementation"/>
+  <text x="567" y="1199" text-anchor="middle" class="label">Platform adapters</text>
+  <text x="567" y="1224" text-anchor="middle" class="small">AI · HR · KM · identity systems</text>
+
+  <rect x="262" y="1260" width="285" height="42" class="implementation"/>
+  <text x="404" y="1287" text-anchor="middle" class="small">Offboarding and review systems</text>
+
+  <rect x="860" y="990" width="670" height="330" class="group"/>
+  <text x="890" y="1030" class="section">4 · Trust ecosystem</text>
+
+  <rect x="890" y="1060" width="285" height="80" class="trust"/>
+  <text x="1032" y="1094" text-anchor="middle" class="label">Conformance tests</text>
+  <text x="1032" y="1119" text-anchor="middle" class="small">test process and safeguards</text>
+
+  <rect x="1215" y="1060" width="285" height="80" class="trust"/>
+  <text x="1357" y="1094" text-anchor="middle" class="label">Independent certification</text>
+  <text x="1357" y="1119" text-anchor="middle" class="small">verify—not self-declare</text>
+
+  <rect x="890" y="1165" width="285" height="80" class="trust"/>
+  <text x="1032" y="1199" text-anchor="middle" class="label">Policy profiles</text>
+  <text x="1032" y="1224" text-anchor="middle" class="small">local rules above a common floor</text>
+
+  <rect x="1215" y="1165" width="285" height="80" class="trust"/>
+  <text x="1357" y="1199" text-anchor="middle" class="label">Collective representation</text>
+  <text x="1357" y="1224" text-anchor="middle" class="small">guilds · unions · data trusts</text>
+
+  <rect x="1052" y="1260" width="285" height="42" class="trust"/>
+  <text x="1194" y="1287" text-anchor="middle" class="small">Anonymized precedent registry</text>
+
+  <path d="M740 1150 L860 1150" class="feedback"/>
+  <path d="M860 1185 L740 1185" class="feedback"/>
+
+  <!-- Decision core and outputs -->
+  <path d="M405 1320 L405 1360 L800 1360 L800 1390" class="line"/>
+  <path d="M1195 1320 L1195 1360 L800 1360 L800 1390" class="line"/>
+
+  <rect x="500" y="1400" width="600" height="96" class="core"/>
+  <text x="800" y="1440" text-anchor="middle" class="coretext">Governed claim + evidence decision</text>
+  <text x="800" y="1468" text-anchor="middle" class="coretiny">Claims and evidence carry separate provenance, rights, trust, and review status</text>
+
+  <path d="M800 1496 L800 1530 L225 1530 L225 1560" class="line"/>
+  <path d="M800 1496 L800 1530 L610 1530 L610 1560" class="line"/>
+  <path d="M800 1496 L800 1530 L995 1530 L995 1560" class="line"/>
+  <path d="M800 1496 L800 1530 L1380 1530 L1380 1560" class="line"/>
+
+  <rect x="70" y="1570" width="310" height="100" class="output"/>
+  <text x="225" y="1608" text-anchor="middle" class="label">Employer-retained</text>
+  <text x="225" y="1634" text-anchor="middle" class="small">confidential and project knowledge</text>
+
+  <rect x="455" y="1570" width="310" height="100" class="output"/>
+  <text x="610" y="1608" text-anchor="middle" class="label">Shared or licensed</text>
+  <text x="610" y="1634" text-anchor="middle" class="small">negotiated rights and value</text>
+
+  <rect x="840" y="1570" width="310" height="100" class="output"/>
+  <text x="995" y="1608" text-anchor="middle" class="label">Worker-portable</text>
+  <text x="995" y="1634" text-anchor="middle" class="small">safely generalized claim</text>
+
+  <rect x="1225" y="1570" width="305" height="100" class="output"/>
+  <text x="1377" y="1608" text-anchor="middle" class="label">Blocked or disputed</text>
+  <text x="1377" y="1634" text-anchor="middle" class="small">evidence stays · claim status visible</text>
+
+  <text x="800" y="1702" text-anchor="middle" class="tiny">Principles first · worker-centered · multi-stakeholder · vendor-neutral · evidence-backed</text>
+</svg>
