@@ -10,21 +10,28 @@ We commit to making participation respectful and constructive across differences
 - Engage the strongest plausible interpretation of an argument.
 - Make room for workers and others who may face power or disclosure constraints.
 - Distinguish disagreement from misconduct.
-- Protect confidential, personal, and sensitive information.
+- Protect personal data, protected source material, and other confidential or
+  sensitive information.
 - Disclose material conflicts when making recommendations.
 
 ## Unacceptable behavior
 
 - Harassment, threats, personal attacks, or discriminatory language
 - Publishing private or identifying information without permission
-- Pressuring participants to disclose confidential workplace evidence
-- Misrepresenting self-assertion, participation, or silence as endorsement
+- Pressuring participants to disclose protected source material or
+  confidential workplace evidence
+- Misrepresenting self-assertion, attestation, verification, participation,
+  or silence as endorsement or a relying-party assessment
 - Coordinated manipulation of votes, reactions, or apparent consensus
 - Commercial solicitation unrelated to the discussion
 
 ## Enforcement
 
-Report conduct concerns privately to the repository owner through the contact method on the owner's GitHub profile. The maintainer may hide or remove content, limit participation, or document a moderation decision. Substantive criticism should not be removed merely because it is uncomfortable or unfavorable to the proposal.
+Report conduct concerns privately to the repository owner through the contact
+method on the owner's GitHub profile. The maintainer may hide or remove
+content, limit participation, or document a moderation decision. Substantive
+criticism and dissent should remain visible unless the content violates this
+code; discomfort with or opposition to the proposal is not itself misconduct.
 
 ## Scope
 

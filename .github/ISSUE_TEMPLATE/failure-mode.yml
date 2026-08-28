@@ -6,7 +6,9 @@ labels:
 body:
   - type: markdown
     attributes:
-      value: "Do not include confidential workplace information, personal data, or protected evidence."
+      value: >-
+        Do not include protected source material or personal data.
+        Participation records a perspective; it does not imply endorsement.
   - type: textarea
     id: scenario
     attributes:
@@ -21,16 +23,26 @@ body:
     validations:
       required: true
   - type: textarea
+    id: governed_objects
+    attributes:
+      label: Governed objects, dispositions, and statuses
+      description: >-
+        Identify each capability claim, evidence item, or artifact separately.
+        Use a charter disposition for each object, and keep its attestation,
+        verification, authorization, and review status separate.
+    validations:
+      required: true
+  - type: textarea
     id: charter_gap
     attributes:
       label: Charter gap
-      description: Which right, procedure, incentive, or governance boundary fails?
+      description: Which protection, procedural safeguard, authorization, assurance, incentive, or governance boundary fails?
     validations:
       required: true
   - type: dropdown
     id: recommendation
     attributes:
-      label: Recommended disposition
+      label: Recommended project direction
       options:
         - Continue with a charter change
         - Narrow the scope
@@ -42,4 +54,4 @@ body:
     id: evidence
     attributes:
       label: Public evidence or related work
-      description: Add links that others can inspect. Do not attach protected evidence.
+      description: Add public links that others can inspect. Do not attach protected source material.

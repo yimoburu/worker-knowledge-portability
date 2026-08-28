@@ -1,17 +1,20 @@
 name: Worker perspective
-description: Identify a worker interest, risk, right, or remedy the draft misses.
+description: Identify a worker interest, risk, protection, or remedy the draft misses.
 title: "[Worker perspective]: "
 labels:
   - worker-perspective
 body:
   - type: markdown
     attributes:
-      value: "You may use a synthetic scenario. Do not identify an individual or disclose confidential work."
+      value: >-
+        You may use a synthetic or disclosure-minimized scenario. Do not
+        identify an individual or disclose protected source material.
+        Participation records a perspective; it does not imply endorsement.
   - type: textarea
     id: situation
     attributes:
       label: Situation
-      description: What might happen to a worker under this draft?
+      description: What might happen to a worker or their capability claim under this draft?
     validations:
       required: true
   - type: textarea
@@ -24,6 +27,7 @@ body:
     id: remedy
     attributes:
       label: What would meaningful review or remedy require?
+      description: Distinguish review, appeal, and remedy where relevant.
     validations:
       required: true
   - type: textarea

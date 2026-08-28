@@ -4,6 +4,11 @@ title: "[Related work]: "
 labels:
   - related-work
 body:
+  - type: markdown
+    attributes:
+      value: >-
+        Describe the source accurately and distinguish its requirements from
+        this project's proposals. Participation does not imply endorsement.
   - type: input
     id: name
     attributes:
@@ -26,6 +31,6 @@ body:
     id: consequence
     attributes:
       label: Consequence for this project
-      description: Should the charter reuse it, change scope, or stop?
+      description: Should the charter reuse it, narrow its scope, stop, or investigate further?
     validations:
       required: true

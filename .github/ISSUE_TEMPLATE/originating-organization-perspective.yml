@@ -1,0 +1,47 @@
+name: Originating organization perspective
+description: Identify a source-side protection, incentive, or operational constraint the draft misses.
+title: "[Originating organization perspective]: "
+labels:
+  - originating-organization-perspective
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Originating organizations include employers, clients, platforms, and
+        agencies. Do not submit protected source material or identifiable
+        disputes. Participation records a perspective; it does not imply
+        endorsement.
+  - type: textarea
+    id: situation
+    attributes:
+      label: Situation
+      description: Describe a synthetic or disclosure-minimized originating-organization scenario.
+    validations:
+      required: true
+  - type: textarea
+    id: exposed_interest
+    attributes:
+      label: Legitimate interest still exposed
+      description: Explain the confidentiality, legal, security, operational, or incentive problem.
+    validations:
+      required: true
+  - type: textarea
+    id: governed_objects
+    attributes:
+      label: Governed objects and proposed dispositions
+      description: >-
+        Identify each claim, evidence item, or artifact separately. Use Retained
+        in protected custody, Authorized for specified use, Worker-portable
+        claim, or Restricted or pending dispute for any proposed disposition.
+    validations:
+      required: true
+  - type: textarea
+    id: minimum_control
+    attributes:
+      label: Minimum authorization, control, or evidence needed
+    validations:
+      required: true
+  - type: textarea
+    id: overreach
+    attributes:
+      label: How could originating-organization protection become overreach?

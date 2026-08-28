@@ -5,29 +5,36 @@ The most valuable contribution is a concrete reason the proposal is incomplete, 
 ## Choose a feedback path
 
 - Use [Discussions](https://github.com/yimoburu/worker-knowledge-portability/discussions) for open-ended questions and cross-cutting debate.
-- Use a structured [Issue](https://github.com/yimoburu/worker-knowledge-portability/issues/new/choose) for a failure mode, worker perspective, employer perspective, or related project.
+- Use a structured [Issue](https://github.com/yimoburu/worker-knowledge-portability/issues/new/choose) for a failure mode, worker perspective, originating-organization perspective, or related project.
 - Use a pull request for a precise wording change after the underlying issue has been discussed.
 
 ## Strong contributions include
 
 - A specific adversarial scenario
 - A missing or conflicting stakeholder interest
-- Evidence that an abstraction can leak protected knowledge
-- Evidence that an employer can exercise indefinite veto
-- A way that self-assertion could be mistaken for endorsement
+- Evidence that a disclosure-minimized abstraction can still expose or permit
+  reconstruction of protected source material
+- Evidence that an originating organization can exercise indefinite veto
+- A way that self-assertion, attestation, or verification could be mistaken
+  for endorsement or a relying-party assessment
 - A relevant legal, technical, labor, credential, or governance precedent
 - A falsifiable criterion for continuing, narrowing, or stopping
 
-## Safety and confidentiality
+## Confidentiality and disclosure minimization
 
 Do not submit:
 
-- Confidential employer or client information
+- Confidential originating-organization information, including employer or
+  client information
 - Trade secrets, private source code, or unpublished product details
 - Personal data or identifiable employment disputes
-- AI traces, prompts, documents, or evidence that you are not authorized to disclose
+- AI-assisted work records, prompts, documents, or evidence that you are not
+  authorized to disclose
 
-Use synthetic or safely generalized examples. If an argument requires protected evidence, describe the category of evidence and the review requirement rather than publishing the evidence.
+Use synthetic examples or disclosure-minimized abstractions produced under a
+stated method and threat model. If an argument requires protected evidence,
+describe the category of evidence and the applicable authorization and review
+requirements rather than publishing the evidence.
 
 ## Participation expectations
 
@@ -35,6 +42,7 @@ Use synthetic or safely generalized examples. If an argument requires protected 
 - Distinguish verified facts, interpretation, and preference.
 - Disclose material conflicts or representation roles.
 - Preserve uncertainty and unresolved dissent.
+- Treat participation as a recorded perspective, not endorsement.
 - Follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## Contribution license
