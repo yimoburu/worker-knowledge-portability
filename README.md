@@ -1,5 +1,7 @@
 # Worker Knowledge Portability
 
+English | [简体中文](README.zh-CN.md)
+
 > An open discussion draft for separating a portable worker capability claim from protected originating-organization evidence.
 
 AI-assisted work produces composite records. A single AI-assisted work record may contain employer-confidential knowledge, shared work product, and reusable skills or judgment developed by a worker. Treating the whole record as either employer-owned or worker-portable is too crude.
