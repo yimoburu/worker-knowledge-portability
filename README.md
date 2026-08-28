@@ -49,6 +49,8 @@ Dispositions apply per governed object and can coexist in one case. Claims and e
 
 This project is asking for criticism, not endorsement.
 
+[Start with the first adversarial Discussion: **Break the Charter: What fails when a worker leaves after AI-assisted work?**](https://github.com/yimoburu/worker-knowledge-portability/discussions/1)
+
 Please identify:
 
 1. A worker right that is missing, unsafe, or impractical.
