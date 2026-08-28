@@ -1,6 +1,6 @@
 # Worker Knowledge Portability
 
-> An open discussion draft for separating portable worker capability from protected employer evidence.
+> An open discussion draft for separating a portable worker capability claim from protected originating-organization evidence.
 
 AI-assisted work produces composite records. A single AI-assisted work record may contain employer-confidential knowledge, shared work product, and reusable skills or judgment developed by a worker. Treating the whole record as either employer-owned or worker-portable is too crude.
 
@@ -16,7 +16,7 @@ The proposal begins with a principles-first **Worker Knowledge Portability Chart
 
 ## The offboarding test
 
-A worker asks to carry a generalized record of capabilities developed through AI-assisted work.
+A worker asks to carry a generalized capability claim developed through AI-assisted work.
 
 - The former employer retains confidential sources and protected evidence.
 - The worker may carry a generalized capability claim assessed under a defined policy, method, and threat model to reduce protected-source disclosure or reconstruction risk.
@@ -52,8 +52,8 @@ This project is asking for criticism, not endorsement.
 Please identify:
 
 1. A worker right that is missing, unsafe, or impractical.
-2. A legitimate employer interest that remains exposed.
-3. A way a worker, employer, vendor, reviewer, or certifier could game the process.
+2. A legitimate originating-organization interest that remains exposed.
+3. A way a worker, originating organization, AI provider or operator, reviewer, or conformity-assessment or certification body could game the process.
 4. A governance role that lacks legitimacy or independence.
 5. Evidence that the project should continue, narrow, or stop.
 

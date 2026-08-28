@@ -25,7 +25,7 @@
       .principle { fill: #fff8e6; stroke: #e0a82e; stroke-width: 2; rx: 14; }
       .protocol { fill: #eefcf5; stroke: #48a779; stroke-width: 2; rx: 14; }
       .implementation { fill: #f2efff; stroke: #8b72d8; stroke-width: 2; rx: 14; }
-      .trust { fill: #fff0f3; stroke: #d66a83; stroke-width: 2; rx: 14; }
+      .assurance { fill: #fff0f3; stroke: #d66a83; stroke-width: 2; rx: 14; }
       .output { fill: #ffffff; stroke: #52606d; stroke-width: 2.5; rx: 16; }
       .core { fill: #173f5f; stroke: #173f5f; stroke-width: 2; rx: 18; }
       .coretext { font: 700 22px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #ffffff; }
@@ -144,23 +144,23 @@
   <rect x="860" y="990" width="670" height="330" class="group"/>
   <text x="890" y="1030" class="section">4 · Assurance and governance ecosystem</text>
 
-  <rect x="890" y="1060" width="285" height="80" class="trust"/>
+  <rect x="890" y="1060" width="285" height="80" class="assurance"/>
   <text x="1032" y="1094" text-anchor="middle" class="label">Conformance tests</text>
   <text x="1032" y="1119" text-anchor="middle" class="small">test process and safeguards</text>
 
-  <rect x="1215" y="1060" width="285" height="80" class="trust"/>
+  <rect x="1215" y="1060" width="285" height="80" class="assurance"/>
   <text x="1357" y="1094" text-anchor="middle" class="label" font-size="15">Independent conformance assessment</text>
   <text x="1357" y="1119" text-anchor="middle" class="small">assess published requirements</text>
 
-  <rect x="890" y="1165" width="285" height="80" class="trust"/>
+  <rect x="890" y="1165" width="285" height="80" class="assurance"/>
   <text x="1032" y="1199" text-anchor="middle" class="label">Policy profiles</text>
   <text x="1032" y="1224" text-anchor="middle" class="small">local rules above a common floor</text>
 
-  <rect x="1215" y="1165" width="285" height="80" class="trust"/>
+  <rect x="1215" y="1165" width="285" height="80" class="assurance"/>
   <text x="1357" y="1199" text-anchor="middle" class="label">Collective representation</text>
   <text x="1357" y="1224" text-anchor="middle" class="small">guilds · unions · data trusts</text>
 
-  <rect x="1052" y="1260" width="285" height="42" class="trust"/>
+  <rect x="1052" y="1260" width="285" height="42" class="assurance"/>
   <text x="1194" y="1287" text-anchor="middle" class="small">Decision-and-rationale registry</text>
 
   <path d="M740 1150 L860 1150" class="feedback"/>
@@ -171,9 +171,9 @@
   <path d="M1195 1320 L1195 1360 L800 1360 L800 1390" class="line"/>
 
   <rect x="500" y="1400" width="600" height="96" class="core"/>
-  <text x="800" y="1440" text-anchor="middle" class="coretext">Governed claim + evidence decision</text>
-  <text x="800" y="1460" text-anchor="middle" class="coretiny" font-size="13">Claims and evidence carry separate provenance, restrictions, permissions,</text>
-  <text x="800" y="1480" text-anchor="middle" class="coretiny" font-size="13">attestation, verification, authorization, and review status</text>
+  <text x="800" y="1440" text-anchor="middle" class="coretext">Per-governed-object disposition process</text>
+  <text x="800" y="1460" text-anchor="middle" class="coretiny" font-size="13">Each claim, evidence item, or artifact receives its own disposition;</text>
+  <text x="800" y="1480" text-anchor="middle" class="coretiny" font-size="13">one case may contain several dispositions</text>
 
   <path d="M800 1496 L800 1530 L225 1530 L225 1560" class="line"/>
   <path d="M800 1496 L800 1530 L610 1530 L610 1560" class="line"/>
