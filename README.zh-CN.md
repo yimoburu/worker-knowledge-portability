@@ -2,7 +2,7 @@
 
 [English](README.md) | 简体中文
 
-> 本页是便于公开讨论的中文解释版，不是法律翻译，也不是独立的原则框架。英文项目记录以提交 [`399721ad0a4e9c169850eaba8f2fb417d8af1b1e`](https://github.com/yimoburu/worker-knowledge-portability/tree/399721ad0a4e9c169850eaba8f2fb417d8af1b1e) 为基线。中文发布日期：2026-08-28。如有含义冲突，以该提交下的英文项目记录为准。
+> 本页是便于公开讨论的中文解释版，不是法律翻译，也不是独立的原则框架。英文项目记录以提交 [`399721ad0a4e9c169850eaba8f2fb417d8af1b1e`](https://github.com/yimoburu/worker-knowledge-portability/tree/399721ad0a4e9c169850eaba8f2fb417d8af1b1e) 为基线。中文发布日期：2026-08-28。如发现中英文含义不一致或翻译措辞有误，请在 [Discussion #1](https://github.com/yimoburu/worker-knowledge-portability/discussions/1) 中指出；如有含义冲突，以该提交下的英文项目记录为准。
 
 AI 辅助工作会产生混合记录。同一条 AI 使用记录可能同时包含组织机密、共同形成的工作产物，以及从业者在工作中发展出的可复用技能和判断。把整条记录简单归为“全部属于组织”或“全部可以随人带走”，都过于粗糙。
 
@@ -19,6 +19,8 @@ AI 辅助工作会产生混合记录。同一条 AI 使用记录可能同时包�
 ![从业者知识可携带性生态](assets/worker-knowledge-portability-ecosystem.zh-CN.png)
 
 [下载中文生态图 PNG](assets/worker-knowledge-portability-ecosystem.zh-CN.png) · [查看中文 SVG](assets/worker-knowledge-portability-ecosystem.zh-CN.svg)
+
+> 移动设备上，嵌入图片仅作概览。请打开上方的 PNG 或 SVG 链接并放大查看细节；下文各节提供可阅读的文字说明。
 
 ## 离职压力测试
 
