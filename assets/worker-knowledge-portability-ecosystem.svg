@@ -61,7 +61,7 @@
 
   <rect x="1260" y="195" width="240" height="82" class="stakeholder"/>
   <text x="1380" y="225" text-anchor="middle" class="label" font-size="16">Independent oversight bodies</text>
-  <text x="1380" y="250" text-anchor="middle" class="small">legitimacy and remedy</text>
+  <text x="1380" y="250" text-anchor="middle" class="small">review and remedy</text>
 
   <!-- Constitution -->
   <path d="M800 310 L800 350" class="line"/>
