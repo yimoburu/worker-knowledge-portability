@@ -189,8 +189,9 @@ Institutional powers should remain separated:
   implementations only under published requirements and a stated program.
 - Appeal bodies may resolve escalated disputes without also controlling a
   future protocol or implementation.
-- Worker collectives, unions, guilds, and data trusts have standing to
-  represent workers and challenge systemic behavior.
+- Worker collectives, unions, guilds, and data trusts may represent workers
+  and challenge systemic behavior under worker authorization, applicable law,
+  or a stated Charter procedure.
 - A public decision-and-rationale registry may publish anonymized decisions
   and rationale, never protected evidence.
 - Stewards, reviewers, conformity assessors, certification bodies, and appeal
@@ -208,8 +209,8 @@ appeal body must not all be the same institution.
   disclosure risk, clearer offboarding, and defensible audit records.
 - AI providers and operators receive common interoperability and assurance
   semantics instead of bespoke bilateral rules.
-- Worker representative bodies receive standing and a mechanism to negotiate
-  policy profiles.
+- Worker representative bodies may receive standing under worker authorization,
+  applicable law, or a stated Charter procedure to negotiate policy profiles.
 - Auditors and regulators receive inspectable dispositions without
   centralizing all protected evidence.
 
