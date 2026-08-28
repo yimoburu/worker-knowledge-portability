@@ -2,7 +2,9 @@
 
 > An open discussion draft for separating portable worker capability from protected employer evidence.
 
-AI-assisted work produces composite records. A single trace may contain employer-confidential knowledge, shared work product, and reusable skills or judgment developed by a worker. Treating the whole record as either employer-owned or worker-portable is too crude.
+AI-assisted work produces composite records. A single AI-assisted work record may contain employer-confidential knowledge, shared work product, and reusable skills or judgment developed by a worker. Treating the whole record as either employer-owned or worker-portable is too crude.
+
+Here, a **worker** is a natural person performing work for or through an organization, whether or not they are an employee. An **employee** is a worker in a legally recognized employment relationship, and an **employer** is that relationship's counterpart. The **originating organization** is the broader source-side organization controlling relevant work systems or records; it may be an employer, client, platform, agency, partnership, or another organization.
 
 This project asks a narrower and harder question:
 
@@ -20,20 +22,22 @@ A worker asks to carry a generalized record of capabilities developed through AI
 - The worker may carry a safely generalized capability claim.
 - A receiving verifier can distinguish self-assertion from employer or independent attestation.
 - Mixed or disputed evidence cannot move unilaterally.
-- Delay cannot silently erase a safely generalized, visibly unverified worker claim.
+- Delay cannot silently erase a safely generalized, visibly self-asserted and not independently attested worker claim.
 
-The four possible outcomes are:
+The governed dispositions are:
 
-1. **Employer-retained**
-2. **Shared or licensed**
-3. **Worker-portable**
-4. **Blocked or disputed**
+1. **Retained in protected custody**
+2. **Authorized for specified use**
+3. **Worker-portable claim**
+4. **Restricted or pending dispute**
 
-Claims and evidence may have different custody, rights, trust, and review status.
+Dispositions apply per governed object and can coexist in one case. Claims and evidence may have different custody, applicable restrictions and permissions, assurance, and review status.
 
 ## Start here
 
-- [Charter v0.1](CHARTER.md) - proposed rights, safeguards, procedures, governance, and red lines
+- [Charter v0.2](CHARTER.md) - proposed rights, safeguards, procedures, governance, and red lines
+- [Terminology](TERMINOLOGY.md) - controlled vocabulary and governed dispositions
+- [Change log](CHANGELOG.md) - discussion-draft version history
 - [Ecosystem](ECOSYSTEM.md) - charter, protocol, implementation, and trust layers
 - [Stress test](STRESS-TEST.md) - the offboarding scenario and five questions for critics
 - [Related landscape](LANDSCAPE.md) - adjacent standards and the proposed missing layer
