@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1720" viewBox="0 0 1600 1720" role="img" aria-labelledby="title desc">
   <title id="title">Worker Knowledge Portability Ecosystem / 从业者知识可携带性生态</title>
-  <desc id="desc">An ecosystem architecture connecting stakeholders, Charter principles, an open protocol, potential implementations, an assurance and governance ecosystem, and four governed claim and evidence dispositions. 本生态架构连接利益相关方、原则框架、开放协议、潜在实现、保障与治理生态，以及能力声明与证据的四种经治理处置结果。</desc>
+  <desc id="desc">An ecosystem architecture connecting stakeholders, Charter principles, an open protocol, potential implementations, an assurance and governance ecosystem, and four governed claim and evidence dispositions. The Chinese text is explanatory only; if meanings conflict, the English project record at baseline 399721ad0a4e9c169850eaba8f2fb417d8af1b1e controls. 本生态架构连接利益相关方、原则框架、开放协议、潜在实现、保障与治理生态，以及能力声明与证据的四种经治理处置结果。中文内容仅作解释；如含义冲突，以基线 399721ad0a4e9c169850eaba8f2fb417d8af1b1e 下的英文项目记录为准。</desc>
   <defs>
     <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
       <path d="M0,0 L0,6 L9,3 z" fill="#52606d"/>
