@@ -1,6 +1,6 @@
 # Chinese Validation Layer Design
 
-**Status:** Design approved in chat; written specification awaiting user review
+**Status:** Approved by the user; implementation planning in progress
 
 **Date:** 2026-08-28
 
