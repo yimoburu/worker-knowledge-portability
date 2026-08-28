@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: >-
-        You may use a synthetic or disclosure-minimized scenario. Do not
+        You may use a synthetic or generalized scenario. Do not
         identify an individual or disclose protected source material.
         Participation records a perspective; it does not imply endorsement.
   - type: textarea

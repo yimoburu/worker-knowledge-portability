@@ -10,7 +10,7 @@ This project asks a narrower and harder question:
 
 > **When a worker leaves, what stays, what may follow, and who decides?**
 
-The proposal begins with a principles-first **Worker Knowledge Portability Charter**. It may later inform an open protocol, conforming implementations, and independent trust institutions, but it does not authorize any implementation today.
+The proposal begins with a principles-first **Worker Knowledge Portability Charter**. It may later inform an open protocol, potential implementations, and independent assurance and governance institutions, but it does not authorize any implementation today.
 
 ![Worker Knowledge Portability Ecosystem](assets/worker-knowledge-portability-ecosystem.png)
 
@@ -19,10 +19,10 @@ The proposal begins with a principles-first **Worker Knowledge Portability Chart
 A worker asks to carry a generalized record of capabilities developed through AI-assisted work.
 
 - The former employer retains confidential sources and protected evidence.
-- The worker may carry a safely generalized capability claim.
-- A receiving verifier can distinguish self-assertion from employer or independent attestation.
+- The worker may carry a generalized capability claim assessed under a defined policy, method, and threat model to reduce protected-source disclosure or reconstruction risk.
+- A receiving organization can inspect whether the claim is self-asserted or attested; a verifier can check authorship, integrity, technical validity, and status; and a relying party separately assesses fitness for purpose.
 - Mixed or disputed evidence cannot move unilaterally.
-- Delay cannot silently erase a safely generalized, visibly self-asserted and not independently attested worker claim.
+- Delay cannot silently erase a visibly self-asserted and not independently attested worker claim that has been assessed under the stated disclosure-minimization policy, method, and threat model.
 
 The governed dispositions are:
 
@@ -31,14 +31,14 @@ The governed dispositions are:
 3. **Worker-portable claim**
 4. **Restricted or pending dispute**
 
-Dispositions apply per governed object and can coexist in one case. Claims and evidence may have different custody, applicable restrictions and permissions, assurance, and review status.
+Dispositions apply per governed object and can coexist in one case. Claims and evidence may have different custody, applicable restrictions and permissions, attestation, verification, authorization, relying-party assessment, and review status.
 
 ## Start here
 
 - [Charter v0.2](CHARTER.md) - proposed rights, safeguards, procedures, governance, and red lines
 - [Terminology](TERMINOLOGY.md) - controlled vocabulary and governed dispositions
 - [Change log](CHANGELOG.md) - discussion-draft version history
-- [Ecosystem](ECOSYSTEM.md) - charter, protocol, implementation, and trust layers
+- [Ecosystem](ECOSYSTEM.md) - charter, future protocol, potential implementations, and assurance and governance
 - [Stress test](STRESS-TEST.md) - the offboarding scenario and five questions for critics
 - [Related landscape](LANDSCAPE.md) - adjacent standards and the proposed missing layer
 - [Governance](GOVERNANCE.md) - how this discussion draft records decisions and dissent
