@@ -20,6 +20,12 @@ evidence cannot move without authorization, but delay cannot silently erase an
 authorized worker-portable claim whose unresolved status and limits remain
 visible.
 
+The request may arise from technically exportable conversation histories,
+agent-state packages, reusable prompt patterns, knowledge-graph entries,
+model-generated summaries, or similar AI memory objects. Exportability or
+association with the worker does not determine whether any such object may
+move or whether it supports a portable claim.
+
 ## Questions for critics
 
 1. Which worker protection is missing, inadequate, or too difficult to exercise?

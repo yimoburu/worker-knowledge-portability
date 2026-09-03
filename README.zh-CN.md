@@ -2,7 +2,7 @@
 
 [English](README.md) | 简体中文
 
-> 本页是便于公开讨论的中文解释版，不是法律翻译，也不是独立的原则框架。英文项目记录以提交 [`399721ad0a4e9c169850eaba8f2fb417d8af1b1e`](https://github.com/yimoburu/worker-knowledge-portability/tree/399721ad0a4e9c169850eaba8f2fb417d8af1b1e) 为基线。中文发布日期：2026-08-28。如发现中英文含义不一致或翻译措辞有误，请在 [Discussion #1](https://github.com/yimoburu/worker-knowledge-portability/discussions/1) 中指出；如有含义冲突，以该提交下的英文项目记录为准。
+> 本页是便于公开讨论的中文解释版，不是法律翻译，也不是独立的原则框架。中文内容以英文 Charter v0.2.2 和英文术语表为依据，更新日期：2026-09-02。如发现中英文含义不一致或翻译措辞有误，请在 [Discussion #1](https://github.com/yimoburu/worker-knowledge-portability/discussions/1) 中指出；如有含义冲突，以最新英文项目记录为准。
 
 AI 辅助工作会产生混合记录。同一条 AI 使用记录可能同时包含组织机密、共同形成的工作产物，以及从业者在工作中发展出的可复用技能和判断。把整条记录简单归为“全部属于组织”或“全部可以随人带走”，都过于粗糙。
 
@@ -15,6 +15,8 @@ AI 辅助工作会产生混合记录。同一条 AI 使用记录可能同时包�
 > **这不是让个人带走公司的知识，也不是让组织在未经治理的情况下永久复制一个人的判断、风格和能力。**
 
 本项目当前只有一份以原则为先的英文 Worker Knowledge Portability Charter。它未来可能为开放协议、潜在实现和独立治理机制提供参考，但今天不授权任何实现。
+
+AI 记忆能够在技术上导出，并不意味着其中的内容可以作为从业者的能力声明随人转移。对话导出、智能体状态包、可复用的提示词模式、知识图谱中的事实项、模型生成的摘要等，可以作为提出或支持能力声明的材料，但不会因此自动成为获准携带的能力声明。当前需要验证的是：在现有数字凭证和来源追溯标准之上，是否还需要一套专门处理工作场所受保护证据的互操作和治理规则；本项目并不预设一定要建立新协议。
 
 ![从业者知识可携带性生态](assets/worker-knowledge-portability-ecosystem.zh-CN.png)
 
@@ -71,7 +73,7 @@ AI 辅助工作会产生混合记录。同一条 AI 使用记录可能同时包�
 
 ## 相关材料
 
-- [英文 Charter v0.2](CHARTER.md)
+- [英文 Charter v0.2.2](CHARTER.md)
 - [中文术语表](TERMINOLOGY.zh-CN.md)
 - [英文术语表](TERMINOLOGY.md)
 - [离职压力测试](STRESS-TEST.md)

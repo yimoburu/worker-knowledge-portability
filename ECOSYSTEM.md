@@ -6,6 +6,11 @@ The proposal is an ecosystem, not a single tool.
 
 [Download the PNG](assets/worker-knowledge-portability-ecosystem.png) | [Open the editable SVG](assets/worker-knowledge-portability-ecosystem.svg)
 
+The ecosystem does not treat a technically exportable AI memory object as
+worker-portable by default. The object may be protected evidence, a work
+artifact, an authorized shared object, or an input to a capability claim. Each
+object receives its own disposition.
+
 ## Layer 1: Charter
 
 The charter defines worker capability agency, protected organizational
@@ -15,7 +20,7 @@ tested.
 
 ## Layer 2: Open protocol
 
-A future protocol could define:
+A future protocol is one hypothesis and could define:
 
 - Governed capability-claim schema
 - Per-object provenance
@@ -25,7 +30,9 @@ A future protocol could define:
 - Separate claim, attestation, authorization, and evidence lifecycles
 - Review, dispute, and decision records
 
-Protocol work should begin only after the charter survives multi-stakeholder critique.
+Protocol work should begin only after the charter survives multi-stakeholder
+critique and the remaining gap is shown not to be adequately addressed by an
+interoperability and governance profile over existing standards.
 
 ## Layer 3: Potential implementations
 

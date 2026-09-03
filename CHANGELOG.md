@@ -1,5 +1,17 @@
 # Change log
 
+## 0.2.2 memory-to-claim and landscape clarification — 2026-09-02
+
+- Clarified that technically exportable AI memory objects may propose or
+  support capability claims but do not automatically become authorized
+  portable claims.
+- Added 1EdTech CLR, Experience You Phase 2, and JFF wallet field-testing
+  evidence to the related-work landscape.
+- Narrowed the candidate gap to governed derivation from protected workplace
+  evidence into a reviewable capability claim.
+- Kept the ecosystem architecture, no-implementation gate, and unresolved
+  profile-versus-protocol question unchanged.
+
 ## 0.2.1 Chinese terminology correction — 2026-08-28
 
 - Classified the correction as `controlled_term_error` after reviewing the

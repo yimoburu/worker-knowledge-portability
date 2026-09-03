@@ -2,7 +2,7 @@
 
 [English](TERMINOLOGY.md) | 简体中文
 
-> 本页是便于公开讨论的中文解释版，不是法律翻译，也不是独立的原则框架。英文项目记录以提交 [`399721ad0a4e9c169850eaba8f2fb417d8af1b1e`](https://github.com/yimoburu/worker-knowledge-portability/tree/399721ad0a4e9c169850eaba8f2fb417d8af1b1e) 为基线。中文发布日期：2026-08-28。如发现中英文含义不一致，请在 [Discussion #1](https://github.com/yimoburu/worker-knowledge-portability/discussions/1) 中指出；解释冲突以该提交下的英文项目记录为准。
+> 本页是便于公开讨论的中文解释版，不是法律翻译，也不是独立的原则框架。中文内容以英文 Charter v0.2.2 和英文术语表为依据，更新日期：2026-09-02。如发现中英文含义不一致，请在 [Discussion #1](https://github.com/yimoburu/worker-knowledge-portability/discussions/1) 中指出；解释冲突以最新英文项目记录为准。
 
 本术语表控制中文指南和图示中的用词，但不分配法律上的所有权，也不创设任何可携带性权利。
 
@@ -13,6 +13,7 @@
 | Worker Knowledge Portability | 从业者知识可携带性 | 指受治理的能力声明延续问题，不等于原始数据、记忆或公司知识的导出。 |
 | Worker Knowledge Portability Charter | 从业者知识可携带性原则框架 | 中文解释性称呼；英文 Charter 仍是项目记录。 |
 | Capability claim | 能力声明 | 关于能力的陈述，不是能力本身，也不自动代表事实或第三方认可。 |
+| AI memory object | AI 记忆对象 | 指对话导出、智能体状态包、可复用的提示词模式、知识图谱中的事实项、模型生成的摘要等运行时留存内容。它可以作为证据项或工作产物，但不会自动成为能力声明，也不当然获准携带。 |
 | Protected source material | 受保护的来源材料 | 受到保密、隐私、知识产权、合同、安全或其他限制的来源材料。 |
 | Originating organization | 原组织 | 指掌握相关工作系统或记录的组织，可能是雇主、客户、平台、代理机构或其他组织；不必然是法律意义上的雇主。 |
 | Attestation | 可追溯的第三方说明 | 由原组织、同事或其他主体作出且能追溯到出具者的说明；不等同于技术核验，也不代表适合特定用途。 |

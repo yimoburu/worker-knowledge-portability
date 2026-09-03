@@ -14,6 +14,14 @@ This project asks a narrower and harder question:
 
 The proposal begins with a principles-first **Worker Knowledge Portability Charter**. It may later inform an open protocol, potential implementations, and independent assurance and governance institutions, but it does not authorize any implementation today.
 
+AI memory portability and worker knowledge portability are not synonyms.
+Technically exportable conversations, agent state, reusable prompt patterns,
+knowledge-graph entries, and model-generated summaries may be used to propose
+or support a capability claim, but they do not automatically become authorized
+portable claims. The current investigation asks whether existing credential
+and provenance standards need an additional workplace confidential-evidence
+profile; it does not assume that a new protocol is required.
+
 ![Worker Knowledge Portability Ecosystem](assets/worker-knowledge-portability-ecosystem.png)
 
 ## The offboarding test
@@ -37,7 +45,7 @@ Dispositions apply per governed object and can coexist in one case. Claims and e
 
 ## Start here
 
-- [Charter v0.2](CHARTER.md) - proposed rights, safeguards, procedures, governance, and red lines
+- [Charter v0.2.2](CHARTER.md) - proposed rights, safeguards, procedures, governance, and red lines
 - [Terminology](TERMINOLOGY.md) - controlled vocabulary and governed dispositions
 - [Change log](CHANGELOG.md) - discussion-draft version history
 - [Ecosystem](ECOSYSTEM.md) - charter, future protocol, potential implementations, and assurance and governance

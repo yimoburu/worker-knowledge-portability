@@ -1,6 +1,6 @@
 # Worker Knowledge Portability Charter
 
-**Version:** 0.2 discussion draft
+**Version:** 0.2.2 discussion draft
 
 **Status:** Request for critique
 
@@ -89,6 +89,14 @@ protected custody. Evidence supports evaluation; it does not automatically
 prove a claim. Worker-originated content authorized for reuse may be presented
 only within its applicable restrictions and permissions. Custody does not by
 itself establish ownership, license, authorization, or truth.
+
+An AI memory object may be used to propose or support a capability claim, but
+it is not automatically a capability claim or a worker-portable object. Technical
+exportability, association with a worker, or storage in a user-facing account
+does not by itself authorize portability. Provenance, applicable restrictions
+and permissions, disclosure minimization, authorization, claim and attestation
+status, review status, and per-object disposition must remain separately
+visible.
 
 ### 4.6 Meaningful review without retaliation
 

@@ -36,6 +36,11 @@ underlying capability, and does not allocate universal legal ownership.
   and assigned one status.
 - **AI-assisted work record:** Content, outputs, metadata, events, feedback,
   and derived information produced through AI-assisted work.
+- **AI memory object:** A conversation export, agent-state package, reusable
+  prompt pattern, knowledge-graph entry, model-generated summary, or similar
+  retained runtime artifact. It may be an evidence item, work artifact, or
+  another kind of AI-assisted work record; it is not automatically a
+  capability claim or an authorized portable object.
 - **Trace:** A technical telemetry object composed of spans. It is not the
   umbrella for prompts, work product, memory, evidence, and capability.
 - **Work artifact:** An observable work product. It must be identified as such
