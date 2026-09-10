@@ -38,8 +38,9 @@ legal ownership.
 
 The charter applies to workers, originating organizations, receiving
 organizations, AI providers and operators, worker representative bodies,
-reviewers, conformity assessors, certification bodies, and regulators involved
-in claims or evidence arising from AI-assisted work.
+reviewers, independent assessors, regulators, and—under a future formal
+program—conformity assessment bodies or certification bodies involved in claims
+or evidence arising from AI-assisted work.
 
 It does not replace intellectual-property, employment, privacy, trade-secret,
 contract, security, regulatory, or data-protection law. It does not require
@@ -64,13 +65,13 @@ Workers may describe, assert, and present generalized claims about their skills
 and judgment. An employment relationship or organizational custody alone must
 not convert a person's general capability into an exclusively owned record.
 The charter cannot revoke a worker's underlying capability; it can govern a
-claim, attestation, authorization, evidence item, or work artifact.
+claim, claim attestation, authorization, evidence item, or work artifact.
 
 ### 4.3 Protected source material and disclosure minimization
 
 Portability must not disclose confidential information, trade secrets,
 regulated data, or work product subject to applicable restrictions and
-permissions. A disclosure-minimized abstraction must identify its policy,
+permissions. A disclosure-minimizing abstraction must identify its policy,
 method, and defined threat model, including the protected-source disclosure or
 reconstruction risk it is intended to reduce. It does not guarantee that risk
 is eliminated.
@@ -90,6 +91,15 @@ prove a claim. Worker-originated content authorized for reuse may be presented
 only within its applicable restrictions and permissions. Custody does not by
 itself establish ownership, license, authorization, or truth.
 
+An AI memory record, conversation export, agent-state package, learned prompt,
+graph fact, model-derived summary, or other technically portable object must
+not be treated as a worker-portable capability claim solely because it is
+exportable, accessible to the worker, or associated with the worker. It remains
+an input, evidence item, or candidate capability abstraction until its
+provenance, applicable restrictions and permissions, disclosure-minimization
+basis, authorization, claim attestation status, review status, and per-object
+disposition are made separately visible as applicable under this charter.
+
 ### 4.6 Meaningful review without retaliation
 
 Workers and originating organizations must be able to inspect, challenge, and
@@ -102,24 +112,24 @@ confidentiality restrictions must be explicit, proportionate, and reviewable.
    purpose, governing policy profile, applicable restrictions and permissions,
    asserted source of authority, and a human-understandable explanation.
 2. **Visible object and assurance status:** A claim identifies its provenance
-   and visible claim, attestation, verification, authorization, and review
-   status. A record must distinguish a self-assertion, attestation,
-   verification result, and relying-party assessment.
+   and visible claim, claim attestation, technical verification, authorization,
+   and review status. A record must distinguish a self-assertion, claim
+   attestation, technical-verification result, and relying-party assessment.
 3. **Per-object dispositions:** The four dispositions in Section 6 apply per
    governed object, not to an entire person or case.
 4. **Time-bounded review:** Silence does not imply endorsement, authorization,
    or release of protected evidence. It also does not create an indefinite veto
-   over a disclosure-minimized capability claim whose limits and unresolved
+   over a disclosure-minimizing capability claim whose limits and unresolved
    status are visible.
 5. **Dispute containment:** During a dispute, protected evidence remains in
-   its applicable custody and only an authorized, disclosure-minimized claim or
+   its applicable custody and only an authorized, disclosure-minimizing claim or
    artifact may be presented. Unresolved claim, evidence, and authorization
    relationships remain visible.
 6. **Authorized protected-evidence review:** An independent reviewer may
    inspect protected evidence only with applicable authorization and
    confidentiality safeguards. That review must not require disclosure of the
    evidence to the worker, receiving organization, or relying party.
-7. **Durable history:** Decisions, rationales, challenges, attestations,
+7. **Durable history:** Decisions, rationales, challenges, claim attestations,
    authorizations, corrections, revocations, and superseding claims remain
    auditable and are not silently rewritten.
 
@@ -133,7 +143,7 @@ artifact, and a worker-portable self-asserted claim.
 | --- | --- |
 | **Retained in protected custody** | The governed object is not authorized to move from its protected source-side custody. |
 | **Authorized for specified use** | Access, use, disclosure, or transfer is authorized for a stated purpose, scope, recipient, duration, and other applicable conditions. |
-| **Worker-portable claim** | A capability claim may be presented by or for the worker with provenance, attestation, verification, and review status visible. |
+| **Worker-portable claim** | A capability claim may be presented by or for the worker with provenance, claim attestation, technical verification, and review status visible. |
 | **Restricted or pending dispute** | Movement or reliance is restricted while an authorization, evidence, or claim relationship remains unresolved. |
 
 ## 7. Separate roles and assessments
@@ -145,23 +155,29 @@ from distinct roles:
   presents a claim about their capability.
 - **Evidence custodian:** holds or controls evidence and records its custody;
   this role does not decide ownership, authorization, or truth.
-- **Attestor:** makes a scoped statement following a stated review or process.
-- **Verifier:** checks authorship, integrity, technical validity, and current
-  status; verification does not determine a claim's truth or fitness for use.
+- **Claim attestor:** provides attributable support for a capability claim or a
+  claim-evidence relationship under a stated review or process.
+- **Technical verifier:** checks authorship, integrity, technical validity, and
+  current status; technical verification does not determine a claim's truth or
+  fitness for use.
 - **Relying party:** determines whether a claim and its assurance information
   are fit for a particular purpose.
 - **Independent reviewer:** conducts an authorized review or dispute review
   under a stated procedure and with required confidentiality safeguards.
-- **Conformity assessor or certification body:** evaluates an implementation
-  or process against published requirements through conformance assessment.
+- **Independent assessor:** evaluates an implementation or process against
+  published requirements while remaining independent of the implementer and
+  relying party. This role does not imply a formal conformity assessment scheme.
+- **Conformity assessment body or certification body:** conducts formal
+  conformity assessment under an established scheme, or certification under
+  an established certification program.
 - **Appeal body:** conducts escalated review of an earlier disposition under a
   stated procedure.
 
-An originating organization may attest to a claim-evidence relationship. An
-independent reviewer may issue a separate attestation after authorized review.
-Neither action certifies a worker's capability. Certification, if a formal
-program exists, applies only to the evaluated implementation or process and
-its stated scope.
+An originating organization may provide a claim attestation for a
+claim-evidence relationship. An independent reviewer may provide a separate
+claim attestation after authorized review. Neither action certifies a worker's
+capability. Certification, if a formal program exists, applies only to the
+evaluated implementation or process and its stated scope.
 
 ## 8. Separate lifecycles
 
@@ -170,11 +186,11 @@ The following future lifecycles remain separate:
 | Object | Lifecycle |
 | --- | --- |
 | Claim | draft, assert, present, challenge, withdraw, supersede |
-| Attestation | issue, suspend, revoke, expire, supersede |
+| Claim attestation | issue, suspend, revoke, expire, supersede |
 | Authorization | grant, restrict, revoke, expire |
 | Evidence | retain, restrict, disclose for authorized review, archive, or delete under applicable obligations |
 
-An attestation or authorization may be revoked. That action changes the
+A claim attestation or authorization may be revoked. That action changes the
 statement or permission; it cannot revoke a worker's underlying capability.
 
 ## 9. Governance and legitimacy
@@ -185,8 +201,11 @@ Institutional powers should remain separated:
   multi-stakeholder governance.
 - Policy-profile bodies may adapt common safeguards to jurisdictions,
   contracts, and sectors without weakening the minimum floor.
-- Independent conformity assessors or certification bodies may evaluate
-  implementations only under published requirements and a stated program.
+- Independent assessors may evaluate implementations against published
+  requirements without presenting that work as formal conformity assessment.
+- If a formal scheme or certification program is established, conformity
+  assessment bodies or certification bodies may operate only under its
+  published requirements and stated scope.
 - Appeal bodies may resolve escalated disputes without also controlling a
   future protocol or implementation.
 - Worker collectives, unions, guilds, and data trusts may represent workers
@@ -194,12 +213,13 @@ Institutional powers should remain separated:
   or a stated Charter procedure.
 - A public decision-and-rationale registry may publish anonymized decisions
   and rationale, never protected evidence.
-- Stewards, reviewers, conformity assessors, certification bodies, and appeal
-  bodies must disclose funding and relationships that could compromise
-  independence.
+- Stewards, reviewers, independent assessors, conformity assessment bodies,
+  certification bodies, and appeal bodies must disclose funding and
+  relationships that could compromise independence.
 
-The rule maker, implementer, conformity assessor or certification body, and
-appeal body must not all be the same institution.
+The rule maker, implementer, independent assessor, any formal conformity
+assessment body or certification body, and appeal body must not all be the same
+institution.
 
 ## 10. Incentive alignment
 
@@ -233,21 +253,23 @@ A process fails this charter if it permits:
 - Disclosure of protected source material through an abstraction that has not
   been assessed under a defined threat model.
 - Credential laundering that presents a self-asserted or inferred capability
-  claim as organizationally attested or certified.
+  claim as supported by an organizational claim attestation or as certified.
 - Permanent veto through delay or non-participation.
 - Hidden capture, hidden consequences, or coercive participation defaults.
-- One interested party controlling rules, implementation, conformance
+- One interested party controlling rules, implementation, independent
   assessment, and appeal.
-- Silent deletion or rewriting of disputes, attestations, authorizations, or
-  claim history.
+- Silent deletion or rewriting of disputes, claim attestations,
+  authorizations, or claim history.
 - Proprietary lock-in presented as interoperability.
 
-## 12. Conformance boundary
+## 12. Assessment boundary
 
-Conformance assessment would evaluate the behavior of an implementation or
-process and its procedural safeguards under standard and adversarial cases. It
-would not determine universal legal ownership, guarantee that every claim is
-true, certify a worker, or promise zero risk.
+Conformance tests and independent assessment against published requirements
+would evaluate the behavior of an implementation or process and its procedural
+safeguards under standard and adversarial cases. They would not determine
+universal legal ownership, guarantee that every claim is true, certify a
+worker, or promise zero risk. They do not themselves constitute formal
+conformity assessment or certification.
 
 This draft does not define or authorize a protocol, schema, certification
 program, adjudicator, pilot, or reference implementation.

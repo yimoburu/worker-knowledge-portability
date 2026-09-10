@@ -11,22 +11,24 @@ or access. It does not mean retiring an AI system. A worker includes an
 employee or a non-employee performing work for or through an organization;
 the term does not determine legal employment status.
 
-A worker asks to present a disclosure-minimized capability claim developed
+A worker asks to present a disclosure-minimizing capability claim developed
 through AI-assisted work. The originating organization keeps evidence that is
-not authorized for disclosure in its applicable custody. A receiving organization and its
-relying party need to distinguish a self-asserted claim, an attestation, a
-verification result, and a relying-party assessment. Restricted or disputed
-evidence cannot move without authorization, but delay cannot silently erase an
-authorized worker-portable claim whose unresolved status and limits remain
-visible.
+not authorized for disclosure in its applicable custody. A receiving
+organization and its relying party need to distinguish a self-asserted claim, a
+claim attestation, a technical-verification result, and a relying-party
+assessment. Restricted or disputed evidence cannot move without authorization,
+but delay cannot silently erase an authorized worker-portable claim whose
+unresolved status and limits remain visible.
 
 ## Questions for critics
 
 1. Which worker protection is missing, inadequate, or too difficult to exercise?
 2. Which legitimate originating-organization interest remains exposed?
 3. Where could a worker, originating organization, AI provider or operator,
-   reviewer, verifier, relying party, or independent assessor game the process?
-4. Who could legitimately attest, verify, challenge, assess fitness for use,
+   reviewer, technical verifier, relying party, or independent assessor game
+   the process?
+4. Who could legitimately support a claim through claim attestation, technically
+   verify, challenge, assess fitness for use,
    conduct an authorized review, or hear an appeal?
 5. What evidence would justify continuing, narrowing, or stopping this effort?
 

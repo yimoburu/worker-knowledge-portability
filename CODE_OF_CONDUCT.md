@@ -20,8 +20,8 @@ We commit to making participation respectful and constructive across differences
 - Publishing private or identifying information without permission
 - Pressuring participants to disclose protected source material or
   confidential workplace evidence
-- Misrepresenting self-assertion, attestation, verification, participation,
-  or silence as endorsement or a relying-party assessment
+- Misrepresenting self-assertion, claim attestation, technical verification,
+  participation, or silence as endorsement or a relying-party assessment
 - Coordinated manipulation of votes, reactions, or apparent consensus
 - Commercial solicitation unrelated to the discussion
 

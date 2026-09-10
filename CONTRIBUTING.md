@@ -12,11 +12,11 @@ The most valuable contribution is a concrete reason the proposal is incomplete, 
 
 - A specific adversarial scenario
 - A missing or conflicting stakeholder interest
-- Evidence that a disclosure-minimized abstraction can still expose or permit
+- Evidence that a disclosure-minimizing abstraction can still expose or permit
   reconstruction of protected source material
 - Evidence that an originating organization can exercise indefinite veto
-- A way that self-assertion, attestation, or verification could be mistaken
-  for endorsement or a relying-party assessment
+- A way that self-assertion, claim attestation, or technical verification could
+  be mistaken for endorsement or a relying-party assessment
 - A relevant legal, technical, labor, credential, or governance precedent
 - A falsifiable criterion for continuing, narrowing, or stopping
 
@@ -31,7 +31,7 @@ Do not submit:
 - AI-assisted work records, prompts, documents, or evidence that you are not
   authorized to disclose
 
-Use synthetic examples or disclosure-minimized abstractions produced under a
+Use synthetic examples or disclosure-minimizing abstractions produced under a
 stated method and threat model. If an argument requires protected evidence,
 describe the category of evidence and the applicable authorization and review
 requirements rather than publishing the evidence.

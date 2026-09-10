@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1720" viewBox="0 0 1600 1720" role="img" aria-labelledby="title desc">
   <title id="title">Worker Knowledge Portability Ecosystem / 从业者知识可携带性生态</title>
-  <desc id="desc">An ecosystem architecture connecting stakeholders, Charter principles, an open protocol, potential implementations, an assurance and governance ecosystem, and four governed claim and evidence dispositions. The Chinese text is explanatory only; if meanings conflict, the English project record at baseline 399721ad0a4e9c169850eaba8f2fb417d8af1b1e controls. 本生态架构连接利益相关方、原则框架、开放协议、潜在实现、保障与治理生态，以及能力声明与证据的四种逐项治理后的处置结果。中文内容仅作解释；如含义冲突，以基线 399721ad0a4e9c169850eaba8f2fb417d8af1b1e 下的英文项目记录为准。</desc>
+  <desc id="desc">An ecosystem architecture connecting stakeholders, Charter principles, an open protocol, potential implementations, an assurance and governance ecosystem, and four governed claim and evidence dispositions. The Chinese text is explanatory only; if meanings conflict, the English project record in the same repository version controls. 本生态架构连接利益相关方、原则框架、开放协议、潜在实现、保障与治理生态，以及能力声明与证据的四种逐项治理后的处置结果。中文内容仅作解释；如含义冲突，以本仓库同一版本的英文项目记录为准。</desc>
   <defs>
     <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
       <path d="M0,0 L0,6 L9,3 z" fill="#52606d"/>
@@ -48,7 +48,7 @@
   <text x="225" y="253" text-anchor="middle" class="small">可携带的能力声明</text>
 
   <rect x="390" y="195" width="250" height="82" class="stakeholder"/>
-  <text x="515" y="229" text-anchor="middle" class="label" font-size="17">原组织</text>
+  <text x="515" y="229" text-anchor="middle" class="label" font-size="17">来源组织</text>
   <text x="515" y="253" text-anchor="middle" class="small" font-size="14">掌握记录 · 保管受保护证据</text>
 
   <rect x="680" y="195" width="250" height="82" class="stakeholder"/>
@@ -61,7 +61,7 @@
 
   <rect x="1260" y="195" width="240" height="82" class="stakeholder"/>
   <text x="1380" y="225" text-anchor="middle" class="label" font-size="16">独立监督机构</text>
-  <text x="1380" y="250" text-anchor="middle" class="small">审查与救济</text>
+  <text x="1380" y="250" text-anchor="middle" class="small">复核与救济</text>
 
   <!-- Constitution -->
   <path d="M800 310 L800 350" class="line"/>
@@ -81,7 +81,7 @@
   <text x="967" y="495" text-anchor="middle" class="small">不作笼统所有权判断 · 不提取受保护来源</text>
 
   <rect x="1165" y="430" width="335" height="100" class="principle"/>
-  <text x="1332" y="468" text-anchor="middle" class="label">审查 · 申诉 · 救济</text>
+  <text x="1332" y="468" text-anchor="middle" class="label">复核 · 申诉 · 救济</text>
   <text x="1332" y="495" text-anchor="middle" class="small" font-size="14">程序保障 · 证据 · 禁止报复</text>
 
   <!-- Protocol -->
@@ -94,25 +94,25 @@
   <text x="315" y="759" text-anchor="middle" class="small">延续的是声明，不是可重放的记忆</text>
 
   <rect x="585" y="700" width="430" height="80" class="protocol"/>
-  <text x="800" y="734" text-anchor="middle" class="label">能力声明逐项溯源</text>
+  <text x="800" y="734" text-anchor="middle" class="label" font-size="17">能力声明的来源与形成过程</text>
   <text x="800" y="759" text-anchor="middle" class="small">来源 · 作者 · 推导 · 证据</text>
 
   <rect x="1070" y="700" width="430" height="80" class="protocol"/>
-  <text x="1285" y="734" text-anchor="middle" class="label" font-size="16">限制 · 授权 · 第三方说明状态</text>
-  <text x="1285" y="759" text-anchor="middle" class="small">访问 · 使用 · 授权 · 审查</text>
+  <text x="1285" y="734" text-anchor="middle" class="label" font-size="16">限制 · 许可 · 声明佐证状态</text>
+  <text x="1285" y="759" text-anchor="middle" class="small">访问 · 使用 · 授权 · 复核</text>
 
   <rect x="100" y="805" width="430" height="80" class="protocol"/>
-  <text x="315" y="831" text-anchor="middle" class="label" font-size="15">尽量少披露来源信息</text>
-  <text x="315" y="852" text-anchor="middle" class="label" font-size="15">的抽象要求</text>
+  <text x="315" y="831" text-anchor="middle" class="label" font-size="15">最小披露的能力概括</text>
+  <text x="315" y="852" text-anchor="middle" class="label" font-size="15">要求</text>
   <text x="315" y="873" text-anchor="middle" class="small" font-size="14">降低受保护来源的披露风险</text>
 
   <rect x="585" y="805" width="430" height="80" class="protocol"/>
-  <text x="800" y="823" text-anchor="middle" class="label" font-size="14">能力声明 · 可追溯的第三方说明 · 授权</text>
+  <text x="800" y="823" text-anchor="middle" class="label" font-size="14">能力声明 · 声明佐证 · 授权</text>
   <text x="800" y="843" text-anchor="middle" class="label" font-size="14">与证据分别管理生命周期</text>
-  <text x="800" y="870" text-anchor="middle" class="small" font-size="14">声明 · 第三方说明 · 授权 · 证据</text>
+  <text x="800" y="870" text-anchor="middle" class="small" font-size="14">声明 · 佐证 · 授权 · 证据</text>
 
   <rect x="1070" y="805" width="430" height="80" class="protocol"/>
-  <text x="1285" y="839" text-anchor="middle" class="label">审查 · 争议 · 决定记录</text>
+  <text x="1285" y="839" text-anchor="middle" class="label">复核 · 争议 · 决定记录</text>
   <text x="1285" y="864" text-anchor="middle" class="small">决定及依据可查</text>
 
   <!-- Two ecosystem branches -->
@@ -131,15 +131,16 @@
   <text x="567" y="1119" text-anchor="middle" class="small">受保护证据的保管</text>
 
   <rect x="100" y="1165" width="285" height="80" class="implementation"/>
-  <text x="242" y="1199" text-anchor="middle" class="label" font-size="14">信息抽象与披露风险服务</text>
+  <text x="242" y="1199" text-anchor="middle" class="label" font-size="14">能力概括与披露风险服务</text>
   <text x="242" y="1224" text-anchor="middle" class="small">提议 · 抽象 · 解释</text>
 
   <rect x="425" y="1165" width="285" height="80" class="implementation"/>
-  <text x="567" y="1199" text-anchor="middle" class="label">平台适配器</text>
-  <text x="567" y="1224" text-anchor="middle" class="small">AI · 人力资源 · 知识 · 身份系统</text>
+  <text x="567" y="1190" text-anchor="middle" class="label" font-size="14">AI 记忆与智能体运行时</text>
+  <text x="567" y="1211" text-anchor="middle" class="label" font-size="14">适配器</text>
+  <text x="567" y="1230" text-anchor="middle" class="small" font-size="12">AI · 人力资源 · 知识 · 身份系统</text>
 
   <rect x="262" y="1260" width="285" height="42" class="implementation"/>
-  <text x="404" y="1287" text-anchor="middle" class="small">离职交接与审查系统</text>
+  <text x="404" y="1287" text-anchor="middle" class="small">关系结束与复核系统</text>
 
   <rect x="860" y="990" width="670" height="330" class="group"/>
   <text x="890" y="1030" class="section">4 · 保障与治理生态</text>
@@ -149,8 +150,9 @@
   <text x="1032" y="1119" text-anchor="middle" class="small">测试流程与保障措施</text>
 
   <rect x="1215" y="1060" width="285" height="80" class="assurance"/>
-  <text x="1357" y="1094" text-anchor="middle" class="label" font-size="15">独立符合性评估</text>
-  <text x="1357" y="1119" text-anchor="middle" class="small">依据公开要求进行评估</text>
+  <text x="1357" y="1087" text-anchor="middle" class="label" font-size="14">依据公开要求开展的</text>
+  <text x="1357" y="1108" text-anchor="middle" class="label" font-size="14">独立评估</text>
+  <text x="1357" y="1128" text-anchor="middle" class="small" font-size="14">不表示正式合格评定制度已经建立</text>
 
   <rect x="890" y="1165" width="285" height="80" class="assurance"/>
   <text x="1032" y="1199" text-anchor="middle" class="label">政策配置</text>
@@ -189,13 +191,13 @@
   <text x="610" y="1634" text-anchor="middle" class="small">明确目的 · 范围 · 条件</text>
 
   <rect x="840" y="1570" width="310" height="100" class="output"/>
-  <text x="995" y="1608" text-anchor="middle" class="label" font-size="14">可由从业者在新场景继续使用的能力声明</text>
-  <text x="995" y="1634" text-anchor="middle" class="small">来源和状态可见</text>
+  <text x="995" y="1608" text-anchor="middle" class="label" font-size="14">可由从业者跨场景出示的能力声明</text>
+  <text x="995" y="1634" text-anchor="middle" class="small">来源与状态可见</text>
 
   <rect x="1225" y="1570" width="305" height="100" class="output"/>
   <text x="1377" y="1608" text-anchor="middle" class="label" font-size="17">暂时受限或等待争议解决</text>
-  <text x="1377" y="1634" text-anchor="middle" class="small" font-size="14">授权、证据或声明尚未解决</text>
+  <text x="1377" y="1634" text-anchor="middle" class="small" font-size="14">授权、证据或声明关系尚未解决</text>
 
-  <text x="800" y="1688" text-anchor="middle" class="tiny" font-size="12">中文解释版 · 英文内容基线 399721a · 2026-08-28</text>
+  <text x="800" y="1688" text-anchor="middle" class="tiny" font-size="12">中文解释版 · 与本仓库同一版本英文记录对应 · 2026-08-28</text>
   <text x="800" y="1708" text-anchor="middle" class="tiny">原则优先 · 以从业者为中心 · 多方参与 · 厂商中立 · 以证据为基础</text>
 </svg>

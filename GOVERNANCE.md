@@ -45,11 +45,12 @@ material must not be published.
 
 An independent assessor must not also serve as the implementer, relying party,
 or appeal body; must disclose material conflicts; and must remain free from
-control by an interested implementer or relying party. A future protocol steward,
-implementer, independent assessor, certification body, and appeal body should
-not all be the same institution. Certification applies only if a formal
-program evaluates an implementation or process against published
-requirements.
+control by an interested implementer or relying party. A future protocol
+steward, implementer, independent assessor, conformity assessment body or
+certification body, and appeal body should not all be the same institution.
+Formal conformity assessment or certification applies only if an established
+scheme or program evaluates an implementation or process against published
+requirements and a stated scope.
 
 ## Transition condition
 

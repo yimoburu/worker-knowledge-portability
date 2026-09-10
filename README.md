@@ -6,6 +6,13 @@ English | [简体中文](README.zh-CN.md)
 
 AI-assisted work produces composite records. A single AI-assisted work record may contain employer-confidential knowledge, shared work product, and reusable skills or judgment developed by a worker. Treating the whole record as either employer-owned or worker-portable is too crude.
 
+Technical portability is not governed portability. An AI memory record,
+conversation export, agent-state package, learned prompt, graph fact, or
+model-derived summary remains an input, evidence item, or candidate capability
+abstraction—not a worker-portable claim—until the applicable provenance,
+restrictions and permissions, disclosure-minimization, authorization, status,
+review, and per-object disposition requirements have been applied.
+
 Here, a **worker** is a natural person performing work for or through an organization, whether or not they are an employee. An **employee** is a worker in a legally recognized employment relationship, and an **employer** is that relationship's counterpart. The **originating organization** is the broader source-side organization controlling relevant work systems or records; it may be an employer, client, platform, agency, partnership, or another organization.
 
 This project asks a narrower and harder question:
@@ -22,9 +29,9 @@ A worker asks to carry a generalized capability claim developed through AI-assis
 
 - The former employer retains confidential sources and protected evidence.
 - The worker may carry a generalized capability claim assessed under a defined policy, method, and threat model to reduce protected-source disclosure or reconstruction risk.
-- A receiving organization can inspect whether the claim is self-asserted or attested; a verifier can check authorship, integrity, technical validity, and status; and a relying party separately assesses fitness for purpose.
+- A receiving organization can inspect whether the claim is self-asserted or supported by a claim attestation; a technical verifier can check authorship, integrity, technical validity, and status; and a relying party separately assesses fitness for purpose.
 - Mixed or disputed evidence cannot move unilaterally.
-- Delay cannot silently erase a visibly self-asserted and not independently attested worker claim that has been assessed under the stated disclosure-minimization policy, method, and threat model.
+- Delay cannot silently erase a visibly self-asserted worker claim that lacks independent claim attestation but has been assessed under the stated disclosure-minimization policy, method, and threat model.
 
 The governed dispositions are:
 
@@ -33,7 +40,7 @@ The governed dispositions are:
 3. **Worker-portable claim**
 4. **Restricted or pending dispute**
 
-Dispositions apply per governed object and can coexist in one case. Claims and evidence may have different custody, applicable restrictions and permissions, attestation, verification, authorization, relying-party assessment, and review status.
+Dispositions apply per governed object and can coexist in one case. Claims and evidence may have different custody, applicable restrictions and permissions, claim attestation, technical verification, authorization, relying-party assessment, and review status.
 
 ## Start here
 
@@ -57,7 +64,9 @@ Please identify:
 
 1. A worker right that is missing, unsafe, or impractical.
 2. A legitimate originating-organization interest that remains exposed.
-3. A way a worker, originating organization, AI provider or operator, reviewer, or conformity-assessment or certification body could game the process.
+3. A way a worker, originating organization, AI provider or operator, reviewer,
+   independent assessor, or—under a formal program—a conformity assessment
+   body or certification body could game the process.
 4. A governance role that lacks legitimacy or independence.
 5. Evidence that the project should continue, narrow, or stop.
 

@@ -98,8 +98,9 @@
   <text x="800" y="759" text-anchor="middle" class="small">source · author · derivation · evidence</text>
 
   <rect x="1070" y="700" width="430" height="80" class="protocol"/>
-  <text x="1285" y="734" text-anchor="middle" class="label" font-size="16">Restrictions, permissions, and attestation status</text>
-  <text x="1285" y="759" text-anchor="middle" class="small">access · use · authorization · review</text>
+  <text x="1285" y="725" text-anchor="middle" class="label" font-size="16">Restrictions, permissions,</text>
+  <text x="1285" y="746" text-anchor="middle" class="label" font-size="16">and claim-attestation status</text>
+  <text x="1285" y="770" text-anchor="middle" class="small">access · use · authorization · review</text>
 
   <rect x="100" y="805" width="430" height="80" class="protocol"/>
   <text x="315" y="831" text-anchor="middle" class="label" font-size="15">Disclosure-minimizing abstraction</text>
@@ -107,9 +108,9 @@
   <text x="315" y="873" text-anchor="middle" class="small" font-size="14">reduce protected-source disclosure risk</text>
 
   <rect x="585" y="805" width="430" height="80" class="protocol"/>
-  <text x="800" y="823" text-anchor="middle" class="label" font-size="14">Separate claim, attestation, authorization,</text>
+  <text x="800" y="823" text-anchor="middle" class="label" font-size="14">Separate claim, claim-attestation, authorization,</text>
   <text x="800" y="843" text-anchor="middle" class="label" font-size="14">and evidence lifecycles</text>
-  <text x="800" y="870" text-anchor="middle" class="small" font-size="14">claim · attestation · authorization · evidence</text>
+  <text x="800" y="870" text-anchor="middle" class="small" font-size="14">claim · claim attestation · authorization · evidence</text>
 
   <rect x="1070" y="805" width="430" height="80" class="protocol"/>
   <text x="1285" y="839" text-anchor="middle" class="label">Review, dispute, and decision records</text>
@@ -135,8 +136,9 @@
   <text x="242" y="1224" text-anchor="middle" class="small">propose · abstract · explain</text>
 
   <rect x="425" y="1165" width="285" height="80" class="implementation"/>
-  <text x="567" y="1199" text-anchor="middle" class="label">Platform adapters</text>
-  <text x="567" y="1224" text-anchor="middle" class="small">AI · HR · knowledge · identity systems</text>
+  <text x="567" y="1190" text-anchor="middle" class="label" font-size="13">AI memory and agent runtime</text>
+  <text x="567" y="1211" text-anchor="middle" class="label" font-size="13">adapters</text>
+  <text x="567" y="1230" text-anchor="middle" class="small" font-size="12">AI · HR · knowledge · identity systems</text>
 
   <rect x="262" y="1260" width="285" height="42" class="implementation"/>
   <text x="404" y="1287" text-anchor="middle" class="small">Offboarding and review systems</text>
@@ -149,8 +151,8 @@
   <text x="1032" y="1119" text-anchor="middle" class="small">test process and safeguards</text>
 
   <rect x="1215" y="1060" width="285" height="80" class="assurance"/>
-  <text x="1357" y="1094" text-anchor="middle" class="label" font-size="15">Independent conformance assessment</text>
-  <text x="1357" y="1119" text-anchor="middle" class="small">assess published requirements</text>
+  <text x="1357" y="1094" text-anchor="middle" class="label" font-size="15">Independent assessment</text>
+  <text x="1357" y="1119" text-anchor="middle" class="small">against published requirements</text>
 
   <rect x="890" y="1165" width="285" height="80" class="assurance"/>
   <text x="1032" y="1199" text-anchor="middle" class="label">Policy profiles</text>
