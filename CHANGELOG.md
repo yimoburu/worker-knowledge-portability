@@ -1,6 +1,6 @@
 # Change log
 
-## Unreleased terminology-contract correction
+## 0.2.3 terminology-contract correction — 2026-09-09
 
 - Added an explicit memory-to-claim boundary: AI memory records, conversation
   exports, agent-state packages, learned prompts, graph facts, and
@@ -18,8 +18,29 @@
   independent assessment against published requirements.
 - Standardized `disclosure-minimizing abstraction` and expanded the Chinese
   controlled vocabulary to cover the complete English terminology layer.
+- Aligned English and Chinese technical verification on issuer identity,
+  integrity, technical validity, and current status—not proof of capability.
 - Kept the ecosystem architecture, no-implementation boundary, and four
   governed dispositions unchanged.
+
+**Unresolved-objection summary:** The [objection register](feedback/objection-register.md)
+has no recorded entries as of this draft. Multi-stakeholder review has not been
+established; an empty register is not consensus or endorsement. Worker benefit,
+acceptable disclosure and reconstruction risk, practical governance, and whether
+a profile over existing standards is sufficient remain open. This is a
+maintainer-issued discussion revision, not an accepted research result.
+
+## 0.2.2 memory-to-claim and landscape clarification — 2026-09-02
+
+- Clarified that technically exportable AI memory objects may propose or
+  support capability claims but do not automatically become authorized
+  portable claims.
+- Added 1EdTech CLR, Experience You Phase 2, and JFF wallet field-testing
+  evidence to the related-work landscape.
+- Narrowed the candidate gap to governed derivation from protected workplace
+  evidence into a reviewable capability claim.
+- Kept the ecosystem architecture, no-implementation gate, and unresolved
+  profile-versus-protocol question unchanged.
 
 ## 0.2.1 Chinese terminology correction — 2026-08-28
 

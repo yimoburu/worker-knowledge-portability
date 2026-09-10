@@ -1,6 +1,6 @@
 # Worker Knowledge Portability Charter
 
-**Version:** 0.2 discussion draft
+**Version:** 0.2.3 discussion draft
 
 **Status:** Request for critique
 
@@ -94,11 +94,12 @@ itself establish ownership, license, authorization, or truth.
 An AI memory record, conversation export, agent-state package, learned prompt,
 graph fact, model-derived summary, or other technically portable object must
 not be treated as a worker-portable capability claim solely because it is
-exportable, accessible to the worker, or associated with the worker. It remains
-an input, evidence item, or candidate capability abstraction until its
-provenance, applicable restrictions and permissions, disclosure-minimization
-basis, authorization, claim attestation status, review status, and per-object
-disposition are made separately visible as applicable under this charter.
+exportable, accessible to or associated with the worker, or stored in a
+user-facing account. It remains an input, evidence item, or candidate capability
+abstraction until its provenance, applicable restrictions and permissions,
+disclosure-minimization basis, claim, claim-attestation, technical-verification,
+authorization and review status, and per-object disposition are made separately
+visible as applicable under this charter.
 
 ### 4.6 Meaningful review without retaliation
 
@@ -157,7 +158,7 @@ from distinct roles:
   this role does not decide ownership, authorization, or truth.
 - **Claim attestor:** provides attributable support for a capability claim or a
   claim-evidence relationship under a stated review or process.
-- **Technical verifier:** checks authorship, integrity, technical validity, and
+- **Technical verifier:** checks issuer identity, integrity, technical validity, and
   current status; technical verification does not determine a claim's truth or
   fitness for use.
 - **Relying party:** determines whether a claim and its assurance information
@@ -176,8 +177,9 @@ from distinct roles:
 An originating organization may provide a claim attestation for a
 claim-evidence relationship. An independent reviewer may provide a separate
 claim attestation after authorized review. Neither action certifies a worker's
-capability. Certification, if a formal program exists, applies only to the
-evaluated implementation or process and its stated scope.
+capability. Under this proposal, certification—if a formal program exists—is
+limited to the evaluated implementation or process and its stated scope; this
+does not redefine certification in other domains.
 
 ## 8. Separate lifecycles
 

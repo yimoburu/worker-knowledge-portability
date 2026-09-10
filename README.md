@@ -21,6 +21,10 @@ This project asks a narrower and harder question:
 
 The proposal begins with a principles-first **Worker Knowledge Portability Charter**. It may later inform an open protocol, potential implementations, and independent assurance and governance institutions, but it does not authorize any implementation today.
 
+The current investigation asks whether existing credential and provenance
+standards need an additional workplace confidential-evidence profile; it does
+not assume that a new protocol is required.
+
 ![Worker Knowledge Portability Ecosystem](assets/worker-knowledge-portability-ecosystem.png)
 
 ## The offboarding test
@@ -29,7 +33,7 @@ A worker asks to carry a generalized capability claim developed through AI-assis
 
 - The former employer retains confidential sources and protected evidence.
 - The worker may carry a generalized capability claim assessed under a defined policy, method, and threat model to reduce protected-source disclosure or reconstruction risk.
-- A receiving organization can inspect whether the claim is self-asserted or supported by a claim attestation; a technical verifier can check authorship, integrity, technical validity, and status; and a relying party separately assesses fitness for purpose.
+- A receiving organization can inspect whether the claim is self-asserted or supported by a claim attestation; a technical verifier can check issuer identity, integrity, technical validity, and status; and a relying party separately assesses fitness for purpose.
 - Mixed or disputed evidence cannot move unilaterally.
 - Delay cannot silently erase a visibly self-asserted worker claim that lacks independent claim attestation but has been assessed under the stated disclosure-minimization policy, method, and threat model.
 
@@ -44,7 +48,7 @@ Dispositions apply per governed object and can coexist in one case. Claims and e
 
 ## Start here
 
-- [Charter v0.2](CHARTER.md) - proposed rights, safeguards, procedures, governance, and red lines
+- [Charter v0.2.3](CHARTER.md) - proposed rights, safeguards, procedures, governance, and red lines
 - [Terminology](TERMINOLOGY.md) - controlled vocabulary and governed dispositions
 - [Change log](CHANGELOG.md) - discussion-draft version history
 - [Ecosystem](ECOSYSTEM.md) - charter, future protocol, potential implementations, and assurance and governance

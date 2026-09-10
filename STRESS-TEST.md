@@ -14,11 +14,18 @@ the term does not determine legal employment status.
 A worker asks to present a disclosure-minimizing capability claim developed
 through AI-assisted work. The originating organization keeps evidence that is
 not authorized for disclosure in its applicable custody. A receiving
-organization and its relying party need to distinguish a self-asserted claim, a
+organization and a relying party, which may be different actors, need to
+distinguish a self-asserted claim, a
 claim attestation, a technical-verification result, and a relying-party
 assessment. Restricted or disputed evidence cannot move without authorization,
 but delay cannot silently erase an authorized worker-portable claim whose
 unresolved status and limits remain visible.
+
+The request may arise from technically exportable conversation histories,
+agent-state packages, reusable prompt patterns, knowledge-graph entries,
+model-generated summaries, or similar AI memory objects. Exportability or
+association with the worker does not determine whether any such object may
+move or whether it supports a portable claim.
 
 ## Questions for critics
 

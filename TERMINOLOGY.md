@@ -1,5 +1,7 @@
 # Terminology
 
+**Applies to:** Charter v0.2.3 discussion draft — 2026-09-09
+
 This controlled vocabulary applies to the Worker Knowledge Portability Charter
 and related discussion documents. It distinguishes claims from a person's
 underlying capability, and does not allocate universal legal ownership.
@@ -30,7 +32,7 @@ underlying capability, and does not allocate universal legal ownership.
 - **Claim attestor:** An identified actor that provides attributable support
   for a capability claim or a claim-evidence relationship under a stated
   review or process.
-- **Technical verifier:** An actor that checks authorship, integrity, technical
+- **Technical verifier:** An actor that checks issuer identity, integrity, technical
   validity, and current status. This role does not determine truth or fitness
   for purpose.
 - **Conformity assessment body or certification body:** A body that conducts formal
@@ -49,6 +51,11 @@ underlying capability, and does not allocate universal legal ownership.
   and assigned one status.
 - **AI-assisted work record:** Content, outputs, metadata, events, feedback,
   and derived information produced through AI-assisted work.
+- **AI memory object:** An umbrella label for a retained AI-runtime artifact,
+  such as an AI memory record, conversation export, agent-state package,
+  reusable prompt pattern, knowledge-graph entry, or model-generated summary. It may be an evidence item, work artifact, or
+  another kind of AI-assisted work record; it is not automatically a
+  capability claim or an authorized portable object.
 - **AI memory record:** A stored representation created or maintained for AI
   recall, personalization, or adaptation, including extracted facts,
   summaries, profiles, learned instructions, or relationships. Association
@@ -96,19 +103,29 @@ underlying capability, and does not allocate universal legal ownership.
 
 ## Assurance and assessment
 
+Standards context: [ISO/IEC 17000:2020](https://www.iso.org/standard/73029.html),
+[ISO/CASCO basic concepts](https://committee.iso.org/basic-concepts.html), and
+[attestations of conformity](https://committee.iso.org/attestations-of-conformity.html).
+In standards usage, conformity assessment includes activities such as testing;
+it is not limited to this proposal's future schemes. Reserving formal labels
+for established schemes, and limiting proposed certification to implementations
+or processes, are this project's scope choices—not universal ISO definitions.
+No such scheme or certification program exists under this discussion draft.
+
 - **Claim attestation:** A scoped, attributable statement supporting a
   capability claim or a claim-evidence relationship under a stated review or
   process. It does not establish universal truth, perform technical
   verification, or determine fitness for purpose. This project term is
   distinct from formal attestation of conformity.
-- **Technical verification:** Checking authorship, integrity, technical
+- **Technical verification:** Checking issuer identity, integrity, technical
   validity, and current status. Technical verification does not establish
   truth or determine whether the underlying claim is fit for use.
 - **Relying-party assessment:** The relying party's evaluation of whether a
   claim and its assurance information are fit for a particular purpose.
 - **Conformance test:** A technical test of an implementation or process
-  against published requirements. Passing a test does not itself constitute
-  formal conformity assessment or certification.
+  against published requirements. Passing this project's test alone does not
+  establish that all requirements of a formal scheme are met or confer
+  certification.
 - **Independent assessment against published requirements:** An evaluation of
   an implementation or process against published requirements by an assessor
   independent of the implementer and relying party. In this discussion draft,
@@ -118,8 +135,8 @@ underlying capability, and does not allocate universal legal ownership.
   a future established scheme.
 - **Certification:** Formal third-party attestation that specified requirements
   have been fulfilled, issued under an established certification program. It
-  applies only to the evaluated implementation or process and stated scope,
-  not to the universal truth of a worker's capability.
+  is limited in this proposal to the evaluated implementation or process and
+  stated scope, not the universal truth of a worker's capability.
 - **Portability:** The ability to present or reuse an authorized claim across
   systems or contexts. This term does not itself assert a statutory
   data-portability right.
