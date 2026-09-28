@@ -21,9 +21,46 @@ This project asks a narrower and harder question:
 
 The proposal begins with a principles-first **Worker Knowledge Portability Charter**. It may later inform an open protocol, potential implementations, and independent assurance and governance institutions, but it does not authorize any implementation today.
 
-The current investigation asks whether existing credential and provenance
+The open question is whether existing credential and provenance
 standards need an additional workplace confidential-evidence profile; it does
 not assume that a new protocol is required.
+
+## Research status — 2026-09-27
+
+**Exploratory industry proposal; active work parked.** The vision remains:
+workers can carry useful AI-assisted capability across tools and work
+relationships while protecting organizational knowledge. This is an ambition,
+not a demonstrated outcome or a guarantee of zero disclosure risk.
+
+Public accounts describe continuity through [shared instructions and context
+files](https://chase-seibert.github.io/blog/2026/05/01/migrating-a-claude-project-to-a-codex-claude-hybrid.html)
+and [exports, summaries, and reviewed project
+instructions](https://dev.to/robiul_islam/i-migrated-years-of-chatgpt-conversations-to-claude-using-cowork-heres-how-plc).
+These are useful baseline examples, not controlled evidence of savings or
+permission to move workplace material. Our inference: compare against existing
+methods before proposing another layer. The [related landscape](LANDSCAPE.md)
+also identifies credential, provenance, and transfer work to reuse.
+
+This project has **not established** material benefit across industries,
+measured net benefit over simpler methods, or successful governed release and
+acceptance across employers. Three questions remain:
+
+1. What concrete portable object improves a real task?
+2. What gap remains after simpler methods, counting preparation, maintenance,
+   review, and correction effort?
+3. Can the relevant parties authorize release and assess use under a stated
+   confidentiality and reconstruction-risk boundary?
+
+Charter v0.2.3 and the ecosystem remain proposals: separate claims from
+protected evidence, distinguish technical checks from authorization, and keep
+decisions reviewable. Their practical value and governance legitimacy remain
+unvalidated; this update does not justify a new protocol or implementation.
+
+**Maintainer decision:** preserve the public proposal and park active research,
+experiments, implementation, and outreach. Discussion remains available, but
+no monitoring or response cadence is scheduled. Reopening requires substantive
+new evidence that may lawfully and appropriately be used, plus an explicit
+maintainer decision. Inconclusive is neither validated nor disproved.
 
 ![Worker Knowledge Portability Ecosystem](assets/worker-knowledge-portability-ecosystem.png)
 

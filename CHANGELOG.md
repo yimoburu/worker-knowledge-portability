@@ -1,5 +1,19 @@
 # Change log
 
+## Research status update — 2026-09-27 (non-normative)
+
+- Added matching English and Chinese status notes with public-source baseline
+  examples, unresolved value and authorization questions, and evidence limits.
+- Preserved the industry-wide ecosystem vision as an exploratory proposal;
+  neither validation nor disproof is claimed.
+- Parked active research, experiments, implementation, and outreach. Public
+  discussion remains available without scheduled monitoring or response
+  commitments; reopening requires substantive permissible new evidence and an
+  explicit maintainer decision.
+- Charter v0.2.3, terminology, ecosystem structure, and diagrams are unchanged.
+  This is an operational status decision, not a new Charter release,
+  multi-stakeholder consensus, or implementation-readiness claim.
+
 ## 0.2.3 terminology-contract correction — 2026-09-09
 
 - Added an explicit memory-to-claim boundary: AI memory records, conversation
